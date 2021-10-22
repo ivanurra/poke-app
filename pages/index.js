@@ -7,6 +7,9 @@ export default function Home() {
       <button>
         <Link href="/test">TEST</Link>
       </button>
+      <button>
+        <Link href="/photos">Photos</Link>
+      </button>
     </div>
   );
 }

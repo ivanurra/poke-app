@@ -5,7 +5,7 @@ const Test = () => {
     <div>
       <p>Test</p>
       <button>
-        <Link href="/">Index</Link>
+        <Link href="/">Home</Link>
       </button>
     </div>
   );
