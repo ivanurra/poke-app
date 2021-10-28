@@ -7,6 +7,9 @@ const Photos = () => {
       <button>
         <Link href="/">Home</Link>
       </button>
+      <button>
+        <Link href="/test">Test</Link>
+      </button>
     </div>
   );
 };
