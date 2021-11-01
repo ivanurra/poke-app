@@ -8,7 +8,7 @@ const Pokemon = ({ pokemon }) => {
 
   return (
     <li>
-      <Link href={`pokemones/${id}`}>{pokemon.name}</Link>
+      <Link href={`/pokemones/${id}`}>{pokemon.name}</Link>
     </li>
   );
 };
