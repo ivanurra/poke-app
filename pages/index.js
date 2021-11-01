@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import Link from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <button className="btn btn-secondary">
         <Link href="/photos">Photos</Link>
       </button>
+      <Image src="/coffee.jpg" alt="Coffee mug" width={400} height={400}/>
     </div>
   );
 }
