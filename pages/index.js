@@ -17,7 +17,8 @@ export default function Pokemones({ pokemones }) {
   console.log(pokemones);
   return (
     <div>
-      <p className="text-uppercase">POKEMONES</p>
+      <p className="text-uppercase">LIST OF POKEMONS</p>
+      <p className="text-uppercase">Press a name to more info</p>
       <ul>
         <li>
           {pokemones.map((pokemon) => (
